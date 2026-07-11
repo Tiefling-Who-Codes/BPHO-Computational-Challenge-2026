@@ -1,7 +1,7 @@
 #Imports
 import numpy as np
 import matplotlib.pyplot as plt
-
+from wavelength_to_hex import wavelength_to_hex_bruton as w2h
 #Constants
 me = 9.10938356e-31 #electron mass in kg
 mp = 1.6726219e-27 #proton mass in kg
@@ -9,6 +9,8 @@ mn = 1.674927471e-27 #neutron mass in kg
 h = 6.62607015e-34 #Planck's constant in J*s
 c = 3e8 #speed of light in m/s
 eV = 1.602176634e-19 #electron volt in Joules
+#intensity = 65536 #intensity for the wavelength to hex function (MAX intensity... too bright for the plot)
+intensity = 3000 #intensity for the wavelength to hex function (~70% brightness) (going for 3000 removes some of the brightness that makes the turquoise stand out, but is a good compromise as it is easer on the eyes.)
 
 #functions
 def photon_energy(wavelength):
@@ -53,7 +55,7 @@ for w in wavelengths:
     energies = np.append(energies, energy_ev)
 
 # Calculating colors for the wavelengths
-colors = [color_wavelength(w) for w in wavelengths]
+colors = [w2h(w, intensity) for w in wavelengths]
 
 #Plotting the hydrogen emision spectra: wavelength vs photon energy
 plt.scatter(wavelengths, energies, c=colors, marker='x', s=50)
