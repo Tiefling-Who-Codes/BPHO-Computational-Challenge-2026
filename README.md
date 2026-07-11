@@ -20,7 +20,7 @@ The serious stuff ....
 
 ..........................................................................................................................................
 
-*wavlength_to_hex.py was not my own code... It was a public library that I am using.*
+*wavlength_to_hex.py is an external library I have imported... Credits to www.eureca.de... Link bellow*
 
 You can find it here : https://www.eureca.de/5116-1-Bruton-color-mapping.html
 I have made use of it as the w2h function which I imported and used in CH5: Hydrogen Emission Spectra for Visible Light.
