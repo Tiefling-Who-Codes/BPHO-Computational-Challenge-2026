@@ -1,7 +1,7 @@
 #Imports
 import numpy as np
 import matplotlib.pyplot as plt
-from wavelength_to_hex import wavelength_to_hex_bruton as w2h
+from libraries.wavelength_to_hex import wavelength_to_hex_bruton as w2h
 #Constants
 me = 9.10938356e-31 #electron mass in kg
 mp = 1.6726219e-27 #proton mass in kg
