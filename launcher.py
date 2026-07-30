@@ -44,6 +44,10 @@ class AppLauncher(ctk.CTk):
         self.btn8 = ctk.CTkButton(self, text="Challenge 5: Hydrogen Emission Spectra for Visible Light", command=lambda: self.run_script("CH5 Hydrogen Emission Spectra for Visible Light.py"))
         self.btn8.pack(pady=10)
 
+        # CH6: Electron Diffraction Rings
+        self.btn9 = ctk.CTkButton(self, text="Challenge 6: Electron Diffraction Rings", command=lambda: self.run_script("CH6 Electron Diffraction.py"))
+        self.btn9.pack(pady=10)
+
 
 
     def run_script(self, script_name):
