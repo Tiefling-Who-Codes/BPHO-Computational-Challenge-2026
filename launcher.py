@@ -52,7 +52,13 @@ class AppLauncher(ctk.CTk):
         self.btn10 = ctk.CTkButton(self, text="Challenge 6a: Electron Diffraction Model Check", command=lambda: self.run_script("CH6a Electron Diffraction Check.py"))
         self.btn10.pack(pady=10)
 
+        #CH7a Particle in a Box - Energy Levels.py
+        self.btn11 = ctk.CTkButton(self, text="Challenge 7a: Particle in a Box - Energy Levels", command=lambda: self.run_script("CH7a Particle in a Box - Energy Levels.py"))
+        self.btn11.pack(pady=10)
 
+        #CH7b Particle in a Box - Probability Densities vs Displacement.py
+        self.btn12 = ctk.CTkButton(self, text="Challenge 7b: Particle in a Box - Probability Densities vs Displacement", command=lambda: self.run_script("CH7b Particle in a Box - probability densities vs displacement.py"))
+        self.btn12.pack(pady=10)
 
     def run_script(self, script_name):
         # subprocess.Popen runs the script in a NEW window/process
