@@ -1,6 +1,9 @@
 #Imports
 import numpy as np
 import matplotlib.pyplot as plt
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from libraries.wavelength_to_hex import wavelength_to_hex_bruton as w2h
 #Constants
 me = 9.10938356e-31 #electron mass in kg
