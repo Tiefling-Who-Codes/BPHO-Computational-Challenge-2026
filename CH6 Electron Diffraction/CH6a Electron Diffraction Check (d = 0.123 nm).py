@@ -93,8 +93,3 @@ voltages = np.linspace(1000, 5000, resolution_voltage) # 1kV to 5kV in resolutio
 d_val = d[0]
 plot_graph(d_val, voltages)
 
-#Itterate for d = 0.213 nm
-d_val = d[1]
-plot_graph(d_val, voltages)
-
-
