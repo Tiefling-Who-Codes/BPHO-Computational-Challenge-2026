@@ -48,6 +48,10 @@ class AppLauncher(ctk.CTk):
         self.btn9 = ctk.CTkButton(self, text="Challenge 9: Compton Scattering of an X-Ray photon off an electron", command=lambda: self.run_script("CH9 Compton Scattering/CH9_launcher.py"))
         self.btn9.pack(pady=10)
 
+        #CH10 Hydrogenic orbitals
+        self.btn10 = ctk.CTkButton(self, text="Challenge 10: Hydrogenic orbital rendering for quantum number n, l & m", command=lambda: self.run_script("CH10 Hydrogenic orbitals/CH10_launcher.py"))
+        self.btn10.pack(pady=10)
+
     def run_script(self, script_name):
         # subprocess.Popen runs the script in a NEW window/process
         # This keeps the launcher open while the script runs
