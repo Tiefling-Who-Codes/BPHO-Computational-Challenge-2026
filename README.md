@@ -47,4 +47,11 @@ This was to:
 
 ..........................................................................................................................................
 
+How to best enjoy my work:
 
+I have designed a custom launcher using custom tkinter.
+In order to run this, you simply have to clone my repo, ensure you have python installed, install all the necessary libraries, then run launcher.py
+Upon running the launcher, you will be met with a user-friendly GUI.
+The GUI itself is pretty self explanatory and u can pretty much mess about with it...
+
+..........................................................................................................................................
