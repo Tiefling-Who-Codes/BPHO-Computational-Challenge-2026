@@ -8,7 +8,7 @@ My name is Adrian D'Costa
 And I made this code!!!
 
 If you want to use it... go ahead!
-I made it for the BPHO computational challenge 2026
+I made it for the BPHO computational challenge 2026   
 But if you like it... use it!
 
 Just give me credit
