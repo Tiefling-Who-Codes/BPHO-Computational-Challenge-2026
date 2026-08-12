@@ -1,20 +1,9 @@
-# Ignore bytecode and cache directories
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Ignore specific file
 CH10 3D visualisation.py
-
-# Ignore virtual environments (if you use them)
 .venv/
 venv/
 env/
-
-# Ignore OS-generated metadata files
-.DS_Store
-Thumbs.db
-
-# Ignore IDE configuration folders
 .vscode/
 .idea/
