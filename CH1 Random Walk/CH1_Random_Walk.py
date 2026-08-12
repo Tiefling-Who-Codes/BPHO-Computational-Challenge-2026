@@ -1,7 +1,5 @@
 # This program simulates the random walk of particles 
 # You can adjust parameters such as number of particles and speed
-# Credits: Adrian D'Costa - BPHO Computational Challenge 2026  --- thats me btw :D
-# Github: teifling_who_codes/BPHO_comp2026  -- probs the link... havent made it yet :D ... if its not... well... you know who to blame :D
 
 # Imports
 import turtle
