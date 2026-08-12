@@ -1,7 +1,4 @@
 # This program simulates the random walk of particles and their collisions with a pollen particle. 
-# You can adjust parameters such as friction, mass, number of particles, speed, and elasticity to see how they affect the movement of the pollen and particles.
-# Credits: Adrian D'Costa - BPHO Computational Challenge 2026
-# Github: teifling_who_codes/BPHO_comp2026
 
 # Imports 
 import turtle
@@ -170,7 +167,6 @@ while True: # Main simulation loop -- runs forever / until the user closes the w
         pollen_speed = -pollen_speed
 
             
-# Too tired to add more comments :C 
 
 
 
