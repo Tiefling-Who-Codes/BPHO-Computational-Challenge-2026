@@ -19,9 +19,6 @@ def plancks_law(wavelength, temperature):
     numerator = 2 * h * (c**2)
     e_power = (h * c) / (wavelength * kb * temperature)
     denominator = (wavelength**5) * (np.exp(e_power) - 1)
-    # CONVERSION STEPS:
-    # 1. Multiply by pi to convert Radiance to Irradiance
-    # 2. Divide by 1e9 to convert "per meter" to "per nanometer"
     return ((numerator / denominator) * np.pi) / 1e9
 
 # Plotting
@@ -29,7 +26,6 @@ plt.figure(figsize=(10, 6))
 
 max_intensity = 0.0
 for T in temperatures_K:
-    #intensities = [plancks_law(wavelength, T) for wavelength in wavelengths_m]
     intensities = plancks_law(np.array(wavelengths_m), T)
     max_intensity = max(max_intensity, max(intensities))
     plt.plot(wavelengths_nm, intensities, label=f'T = {T} K')
