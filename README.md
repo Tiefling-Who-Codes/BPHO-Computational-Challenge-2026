@@ -1,56 +1,54 @@
-Hey!.. You should read this first... :D
+# BPHO Computational Challenge 2026: Quantum Mechanics
 
-Hello fellow programmer or physicist!
-Or both!
+Hey! You should read this first... :D
+
+Hello fellow programmer or physicist!  
+Or both!  
 Or neither!
 
-My name is Adrian D'Costa
-And I made this code!!!
+My name is **Adrian D'Costa**, and I made this project!
 
-If you want to use it... go ahead!
-I made it for the BPHO computational challenge 2026   
-But if you like it... use it!
+If you want to use it... go ahead! I made it for the **BPHO Computational Challenge 2026**, but if you like it... feel free to use it! Just give me credit.
 
-Just give me credit
+---
 
-The serious stuff ...
-..........................................................................................................................................
+## Challenge Video
+Check out the full video walkthrough here:  
+** [Watch on YouTube](https://www.youtube.com/watch?v=oEvkfLqGpjI)**
 
-Challenge video link : https://www.youtube.com/watch?v=oEvkfLqGpjI 
-..........................................................................................................................................
+---
 
-*wavlength_to_hex.py is an external library I have imported... Credits to www.eureca.de... Link bellow*
+## Credits & External Libraries
 
-You can find it here : https://www.eureca.de/5116-1-Bruton-color-mapping.html
-I have made use of it as the w2h function which I imported and used in CH5: Hydrogen Emission Spectra for Visible Light.
-This was to find the specific colours for the different coloured lines that correspond to the colours & wavelength of the hydrogen emission spectra.
-I gave the function 2 inputs, wavelength (which I calculated), and intensity (I set this to 3000).
-The function gave me a hex colour for the specified wavelength, which was used as the line colours for the plot.
-I definitely recommend checking the website for more info on how this amazing function works, and what else you could do with it :D
+`wavelength_to_hex.py` is an external library I imported. Credits go to **[eureca.de](https://www.eureca.de/5116-1-Bruton-color-mapping.html)**.
 
-..........................................................................................................................................
+I made use of it as the `w2h` function, which I imported and used in **Challenge 5: Hydrogen Emission Spectra (Visible Light)**:
+* It converts calculated wavelengths into exact hex colours for the emission lines.
+* The function takes two inputs: **wavelength** (calculated) and **intensity** (set to 3000); and outputs a hex colour corresponding to the wavelength.
 
-..........................................................................................................................................
+Check out their website for more details on how this function works!
 
-Notes on AI usage:
+---
 
-I have used AI in this to some extent.
+## Notes on AI Usage
 
-This was to:
- * Find specific commands or how to do something specifically because it slipped out of my mind
- * I have not used AI to generate any of this code
- * This code is all my own work
- * I have used AI to explain some concepts to me 
- * I have NOT copied code in from AI models
- * AI has been used with moderation and for convenience
+AI was used in moderation for my convenience and to help me understand some concepts:
+* **What AI was used for:** Looking up specific syntax/commands and clarifying physics/programming concepts.
+* **What AI was not used for:** AI was **NOT** used to generate any code for any of the challenges. All code in this project is my own work.
 
-..........................................................................................................................................
+---
 
-How to best enjoy my work:
+## How to Run the App
 
-I have designed a custom launcher using custom tkinter.
-In order to run this, you simply have to clone my repo, ensure you have python installed, install all the necessary libraries, then run launcher.py
-Upon running the launcher, you will be met with a user-friendly GUI.
-The GUI itself is pretty self explanatory and u can pretty much mess about with it...
+I designed a custom launcher using **CustomTkinter**. To run the project:
 
-..........................................................................................................................................
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/Tiefling-Who-Codes/BPHO-Computational-Challenge-2026.git
+   cd BPHO-Computational-Challenge-2026
+2. Ensure you have Python 3 installed along with the required dependencies:
+   ```bash
+   pip install customtkinter tkinter matplotlib pyvista numpy scipy
+3. Run the main launcher:
+  ```bash
+  python launcher.py
